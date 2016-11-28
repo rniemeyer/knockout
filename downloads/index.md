@@ -4,6 +4,7 @@ title: Downloads
 mainmenukeyoverride: installation
 pathprefix: ../
 ---
+{% assign pathprefix = page.pathprefix | default: layout.pathprefix %}
 
 Get the latest stable production build of Knockout.js:
 
